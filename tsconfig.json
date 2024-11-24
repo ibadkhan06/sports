@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/(tabs)/cricket.jsx", "app/(tabs)/_layout.jsx", "app/index.jsx", "components/ui/CricketMatchList.jsx", "app/(tabs)/soccer.jsx"  ]
+}
